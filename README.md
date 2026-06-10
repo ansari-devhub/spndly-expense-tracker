@@ -42,9 +42,9 @@ A clean, modern personal expense tracking app built with Flutter. Spndly helps u
 
 
 
-| Home | Transactions | Analytics |
-|---|---|---|
-| ![Home](screenshots/home.png) | ![Transactions](screenshots/transactions.png) | ![Analytics](screenshots/analytics.png) |![ADD_TRANSACTION](screenshots/add_transaction.png) | ![PROFILE](screenshots/profile.png) |
+| Home | Transactions | Analytics | Add Transaction | Profile |
+|---|---|---|---|---|
+| ![Home](screenshots/home.png) | ![Transactions](screenshots/transactions.png) | ![Analytics](screenshots/analytics.png) | ![Add Transaction](screenshots/add_transaction.png) | ![Profile](screenshots/profile.png) |
 
 ---
 
@@ -74,6 +74,20 @@ flutter run
 
 ## 📁 Project Structure
 
+```
+lib/
+├── main.dart
+├── pages/
+│   ├── home/
+│   ├── transactions/
+│   ├── analytics/
+│   └── profile/
+├── widgets/          # Reusable UI components
+├── providers/        # Riverpod providers and state
+├── models/           # Data models and entities
+├── theme/            # Material 3 theming and ThemeExtension
+└── utils/            # Helper functions and constants
+```
 
 
 ## 👨‍💻 Author
